@@ -45,16 +45,29 @@ body{
     padding-top: px;
 }
 #sign-up{
-    margin-top:250px;
+    margin-top:25px;
     margin-left: 33%;
+   
 }
 .center{
     text-align: center;
     height: 550px;
     width: 450px;
     background-color: white;
+    border:1px solid;
 }
 
+.logo{
+    text-align: center;
+}
+.logo img{
+    margin-top: 100px;
+    margin-left: 280px;
+}
+.logos {
+    margin-top: 30px;
+    margin-left: 450px;
+}
 
 
 
