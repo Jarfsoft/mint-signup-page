@@ -1,36 +1,60 @@
 body{
     padding: 0;
     margin: 0;
-    background: lightgrey;
+    background: #ECEEF1;
 }
 
 .sign-in-info{
     float:right;
     margin-right: 45px;
+    /* border: 2px solid; */
+    /* margin-top: -250px; */
 }
 .container{
     display:flex;
     flex-direction: row;
 }
 .common-styles{
-    font-size: 13px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .forgot-password{
     margin-top: -12px;
-    color: blue;
+    color: #0077C5;
+}
+.forgot-password a{
+    text-decoration: none;
 }
 
 .signin-btn{
     margin-top:12px;
     margin-left: 12px;
 }
-.signin-btn input{
+.signin-btn button{
     height: 35px;
     width: 90px;
     border-radius: 4px;
-    background-color: blue;
+    background-color: #0077C5;
     color: white;
     border:1px solid black;
+    margin-top:-2px;
 }
+.signin-btn i{
+    font-size: small;
+    padding-top: px;
+}
+#sign-up{
+    margin-top:250px;
+    margin-left: 33%;
+}
+.center{
+    text-align: center;
+    height: 550px;
+    width: 450px;
+    background-color: white;
+}
+
+
+
 
