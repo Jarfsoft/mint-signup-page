@@ -133,7 +133,7 @@ border:none;
 .back-color{
 background-color:  #4C4C4C;
 height: 35px;
-margin-left: -2px;
+/* margin-left: -2px; */
 }
 .captcha{
     margin-top: 52px;
@@ -150,13 +150,19 @@ margin-left: -2px;
 
 .policies{
     margin-left: 520px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-small;
+}
+.policies a{
+    text-decoration: none;
+    color: gray;
 }
 .line1{
     margin-left: 200px;
-}
-.line1 a{
-    text-decoration: none;
+    color: gray;
 }
 .line2{
     margin-left: 350px;
+    margin-top:-18px;
+    color: gray;
 }
