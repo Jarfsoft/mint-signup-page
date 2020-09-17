@@ -7,8 +7,6 @@ body{
 .sign-in-info{
     float:right;
     margin-right: 45px;
-    /* border: 2px solid; */
-    /* margin-top: -250px; */
 }
 .container{
     display:flex;
@@ -49,10 +47,9 @@ body{
     margin-left: 33%;
    
 }
-.center{
-    text-align: center;
-    height: 550px;
-    width: 450px;
+.form-size{
+    height: 600px;
+    width: 400px;
     background-color: white;
     border:1px solid;
 }
@@ -65,9 +62,73 @@ body{
     margin-left: 280px;
 }
 .logos {
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 450px;
 }
+.form-header h1{
+    margin-top: 40px;
+    margin-left:100px;
+    font-size: large;
+    color: #4C4C4C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-header h3{
+    margin-left:70px;
+    font-size: small; 
+    color: #4C4C4C;
+    font-family: sans-serif;
+}
+.form-header a{
+    margin-left: 90px;
+    text-decoration: none;
+    color: #0077C5;
+}
 
+.element-style{
+    margin-left:35px;
+    margin-top:35px;
+}
+.element-style label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.element-style input{
+width:320px;
+height: 30px;
+}
+
+.element-style p{
+    font-size: smaller;
+    color: #4C4C4C;
+}
+
+.element-style button{
+height: 40px;
+width: 310px;
+margin-top: 35px;
+background-color:  #0077C5;
+color:white;
+border-radius:4px;
+border:none;
+}
+/* .element-style span{
+    padding-top: -60px;
+} */
+.click-info{
+    font-size: smaller;
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.spacing{
+    margin-left: 30px;
+}
+.center{
+   margin-left: 120px;
+}
 
 
