@@ -1,0 +1,15 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: lightgrey;
+}
+
+.sign-in-info{
+    float:right;
+    margin-right: 30px;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+}
+
