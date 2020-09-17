@@ -6,10 +6,31 @@ body{
 
 .sign-in-info{
     float:right;
-    margin-right: 30px;
+    margin-right: 45px;
 }
 .container{
     display:flex;
     flex-direction: row;
+}
+.common-styles{
+    font-size: 13px;
+}
+
+.forgot-password{
+    margin-top: -12px;
+    color: blue;
+}
+
+.signin-btn{
+    margin-top:12px;
+    margin-left: 12px;
+}
+.signin-btn input{
+    height: 35px;
+    width: 90px;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+    border:1px solid black;
 }
 
