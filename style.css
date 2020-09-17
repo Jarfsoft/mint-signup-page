@@ -48,7 +48,7 @@ body{
    
 }
 .form-size{
-    height: 600px;
+    height: 650px;
     width: 400px;
     background-color: white;
     border:1px solid;
@@ -130,5 +130,21 @@ border:none;
 .center{
    margin-left: 120px;
 }
-
+.back-color{
+background-color:  #4C4C4C;
+height: 35px;
+margin-left: -2px;
+}
+.captcha{
+    margin-top: 52px;
+    margin-left: 18px;
+    font-size: smaller;
+    color: gray;
+}
+.captcha p{
+    padding-top: 10px;
+}
+.captcha span{
+    color:#0077C5;
+}
 
