@@ -19,7 +19,6 @@ body {
 .common-styles {
   font-size: 12px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
 }
 
 .forgot-password {
@@ -100,8 +99,8 @@ body {
 }
 
 .element-style {
-  margin-left:35px;
-  margin-top:35px;
+  margin-left: 35px;
+  margin-top: 35px;
 }
 
 .element-style label {
@@ -140,11 +139,11 @@ body {
 }
 
 .spacing {
-margin-left: 30px;
+  margin-left: 30px;
 }
 
 .center {
-   margin-left: 120px;
+  margin-left: 120px;
 }
 
 .back-color {
@@ -164,7 +163,7 @@ margin-left: 30px;
 }
 
 .captcha span {
-  color:#0077c5;
+  color: #0077c5;
 }
 
 .policies {
@@ -183,7 +182,8 @@ margin-left: 30px;
   margin-left: 200px;
   color: gray;
 }
-.line2{
+
+.line2 {
   margin-left: 350px;
   margin-top: -18px;
   color: gray;
