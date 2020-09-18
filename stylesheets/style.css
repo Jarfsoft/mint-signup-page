@@ -167,6 +167,7 @@ body {
 .captcha span {
   color: #0077c5;
 }
+
 .captcha a {
   text-decoration: none;
 }
@@ -194,9 +195,10 @@ body {
   color: gray;
 }
 
-.blue{
+.blue {
   color: #0077c5;
 }
+
 .click-info a {
   text-decoration: none;
 }
