@@ -153,8 +153,8 @@ body {
   height: 35px;
   position: absolute;
   margin-top: 22px;
-  width:368px;
-  bottom:0;
+  width: 368px;
+  bottom: 0;
   padding: 16px;
 }
 
@@ -198,7 +198,10 @@ body {
   margin-top: -18px;
   color: gray;
 }
-.policies, .line1, .line2 {
+
+.policies,
+.line1,
+.line2 {
   text-align: center;
 }
 
