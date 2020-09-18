@@ -151,11 +151,14 @@ body {
 .back-color {
   background-color: #eceef1;
   height: 35px;
-  position: relative;
+  position: absolute;
+  margin-top: 22px;
+  width:399.7px;
+  bottom:0;
 }
 
 .captcha {
-  margin-top: 35px;
+  margin-top: -10px;
   margin-left: 20px;
   font-size: smaller;
   color: gray;
@@ -176,7 +179,6 @@ body {
 }
 
 .policies {
-  margin-left: 520px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: small;
   margin-top: 70px;
@@ -188,14 +190,15 @@ body {
 }
 
 .line1 {
-  margin-left: 200px;
   color: gray;
 }
 
 .line2 {
-  margin-left: 350px;
   margin-top: -18px;
   color: gray;
+}
+.policies, .line1, .line2 {
+  text-align: center;
 }
 
 .blue {
