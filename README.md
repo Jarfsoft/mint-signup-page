@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](http://rawcdn.githack.com/Jarfsoft/mint-signup-page/4178c5a46760e544d1eb9b10b267e3a36a19c0ec/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Jarfsoft/mint-signup-page/8810f6ffeb4b8c3567d4a5bd23c9738f7f1b7dd5/index.html)
 
 ## Getting Started
 
