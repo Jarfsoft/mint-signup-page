@@ -48,7 +48,7 @@ body {
   font-size: small;
 }
 
-#sign-up {
+.sign-up {
   margin-top: 25px;
   display: flex;
   flex-direction: row;
@@ -56,10 +56,11 @@ body {
 }
 
 .form-size {
-  height: 650px;
+  height: 693px;
   width: 400px;
   background-color: white;
-  border: 1px #4c4c4c;
+  border: 1px solid gray;
+  position: relative;
 }
 
 .logo img {
@@ -149,6 +150,7 @@ body {
 .back-color {
   background-color: #eceef1;
   height: 35px;
+  position: relative;
 }
 
 .captcha {
@@ -164,6 +166,9 @@ body {
 
 .captcha span {
   color: #0077c5;
+}
+.captcha a {
+  text-decoration: none;
 }
 
 .policies {
@@ -187,4 +192,11 @@ body {
   margin-left: 350px;
   margin-top: -18px;
   color: gray;
+}
+
+.blue{
+  color: #0077c5;
+}
+.click-info a {
+  text-decoration: none;
 }
