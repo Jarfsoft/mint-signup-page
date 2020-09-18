@@ -153,8 +153,9 @@ body {
   height: 35px;
   position: absolute;
   margin-top: 22px;
-  width:399.7px;
+  width:368px;
   bottom:0;
+  padding: 16px;
 }
 
 .captcha {
