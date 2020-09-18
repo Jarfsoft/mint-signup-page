@@ -12,11 +12,14 @@ body {
 .container {
   display:flex;
   flex-direction: row;
+  margin:-140px;
+  margin-right: 25px;
 }
 
 .common-styles {
   font-size: 12px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
 }
 
 .forgot-password {
@@ -45,12 +48,13 @@ body {
 
 .signin-btn i {
   font-size: small;
-  /* padding-top: px; */
 }
 
 #sign-up {
   margin-top:25px;
-  margin-left: 33%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .form-size {
@@ -70,27 +74,31 @@ body {
 }
 
 .logos {
-  margin-top: 40px;
-  margin-left: 450px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
+
 
 .form-header h1 {
   margin-top: 40px;
-  margin-left:100px;
+  margin-left:80px;
   font-size: large;
   color: #4c4c4c;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 40px;
 }
 
 .form-header h3 {
-  margin-left:70px;
+  margin-left:50px;
   font-size: small; 
   color: #4c4c4c;
   font-family: sans-serif;
 }
 
 .form-header a {
-  margin-left: 90px;
+  margin-left: 110px;
   text-decoration: none;
   color: #0077c5;
 }
@@ -149,8 +157,8 @@ margin-left: 30px;
 }
 
 .captcha {
-  margin-top: 52px;
-  margin-left: 18px;
+  margin-top: 35px;
+  margin-left: 20px;
   font-size: smaller;
   color: gray;
 }
@@ -166,7 +174,8 @@ margin-left: 30px;
 .policies {
   margin-left: 520px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: x-small;
+  font-size: small;
+  margin-top: 70px;
 }
 
 .policies a {
