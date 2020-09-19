@@ -123,10 +123,11 @@ body {
 
 .element-style button {
   height: 40px;
-  width: 310px;
+  width: 328px;
   margin-top: 35px;
   background-color: #0077c5;
   color: white;
+  font-size: 15px;
   border-radius: 4px;
   border: none;
 }
@@ -153,8 +154,8 @@ body {
   height: 35px;
   position: absolute;
   margin-top: 22px;
-  width: 368px;
-  bottom: 0;
+  width:367.7px;
+  bottom:0;
   padding: 16px;
 }
 
@@ -198,10 +199,7 @@ body {
   margin-top: -18px;
   color: gray;
 }
-
-.policies,
-.line1,
-.line2 {
+.policies, .line1, .line2 {
   text-align: center;
 }
 
@@ -211,4 +209,8 @@ body {
 
 .click-info a {
   text-decoration: none;
+}
+
+.element-style i {
+  font-size: 16px;
 }
