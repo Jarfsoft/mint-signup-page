@@ -1,9 +1,12 @@
-body {
+* {
   padding: 0;
   margin: 0;
-  background: #eceef1;
+  border: 0;
 }
 
+body {
+  background: #eceef1;
+}
 .sign-in-info {
   float: right;
   margin-right: 45px;
@@ -12,7 +15,7 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  margin: -140px;
+  margin-top: -140px;
   margin-right: 25px;
 }
 
@@ -21,8 +24,11 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.signin-account{
+  margin-top:14px;
+}
+
 .forgot-password {
-  margin-top: -12px;
   color: #0077c5;
 }
 
@@ -43,10 +49,13 @@ body {
   color: white;
   margin-top: -2px;
   border: 1px solid;
+  vertical-align: middle;
 }
 
 .signin-btn i {
   font-size: small;
+  vertical-align: middle;
+  margin-top: -4px;
 }
 
 .sign-up {
@@ -82,12 +91,11 @@ body {
 }
 
 .form-header h1 {
-  margin-top: 40px;
-  margin-left: 80px;
+  text-align: center;
   font-size: large;
   color: #4c4c4c;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 .form-header h3 {
