@@ -20,7 +20,7 @@ body {
 }
 
 .common-styles {
-  margin-top: 35px;
+  margin-top: 37px;
   font-size: 12px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -127,6 +127,13 @@ body {
   height: 30px;
   border: 1px solid lightgray;
   border-radius: 4px;
+}
+
+.unlock-icon i {
+position: absolute;
+margin-left: 300px;
+padding-top: 12px;
+color: gray;
 }
 
 .element-style p {
