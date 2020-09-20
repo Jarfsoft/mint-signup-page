@@ -77,6 +77,9 @@ body {
   flex-direction: row;
   justify-content: center;
 }
+.column {
+  padding-right:10px;
+}
 
 .form-header h1 {
   margin-top: 40px;
@@ -161,9 +164,9 @@ body {
 
 .captcha {
   margin-top: -10px;
-  margin-left: 20px;
   font-size: smaller;
   color: gray;
+  text-align: center;
 }
 
 .captcha p {
