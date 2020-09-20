@@ -145,6 +145,11 @@ body {
   border: none;
 }
 
+.element-style i {
+  vertical-align: middle;
+  margin-top: -3px;
+}
+
 .click-info {
   font-size: smaller;
   margin-top: 50px;
