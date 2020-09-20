@@ -7,6 +7,7 @@
 body {
   background: #eceef1;
 }
+
 .sign-in-info {
   float: right;
   margin-right: 45px;
@@ -27,10 +28,6 @@ body {
 
 .signin-account{
   margin-top:14px;
-}
-
-.forgot-password {
-  color: #0077c5;
 }
 
 .forgot-password a {
@@ -108,7 +105,6 @@ body {
 
 .form-header a {
   text-decoration: none;
-  color: #0077c5;
 }
 
 .element-style {
@@ -195,10 +191,6 @@ color: gray;
   padding-top: 10px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: smaller;
-}
-
-.captcha span {
-  color: #0077c5;
 }
 
 .captcha a {
